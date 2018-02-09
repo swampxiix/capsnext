@@ -2,7 +2,6 @@ import csv, datetime, calendar, os.path
 
 # Constants
 CNDIR = '/usr/local/wwrun/capsnext'
-sked_file = 'schedule.csv'
 
 def get_csv_rows (fullpath):
     rows = []
@@ -13,9 +12,9 @@ def get_csv_rows (fullpath):
     file.close()
     return rows
 
-def get_next_game ():
+def get_next_game (my_sked_file):
     now_dtd = datetime.date.today()
-    rows = get_csv_rows(os.path.join(CNDIR, sked_file))
+    rows = get_csv_rows(os.path.join(CNDIR, my_sked_file))
     FOUND = None
     x = []
     for game_date, sitch, game_time in rows:
