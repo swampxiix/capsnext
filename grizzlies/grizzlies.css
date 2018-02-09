@@ -1,0 +1,36 @@
+body {
+    background-color: #DDDDDD;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    text-align: center;
+    color: #00285E;
+    }
+
+#content {
+    background-color: #FFFFFF;
+    padding: 20px;
+    }
+
+h1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 96pt;
+    }
+
+h2 {
+    font-size: 72pt;
+    }
+
+h3 {
+    font-size: 60pt;
+    }
+
+.future {
+    color: #FFFFFF;
+    background-color: #6189B9; /* dark blue */
+    }
+
+.today {
+    color: #FFFFFF;
+    background-color: #FDB927; /* yellow */
+    }
