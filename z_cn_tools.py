@@ -13,7 +13,11 @@ def get_csv_rows (fullpath):
     return rows
 
 def get_next_game (my_sked_file):
-    now_dtd = datetime.date.today()
+#    now_dtd = datetime.date.today()
+    # Adjust for EST vs. UTC.
+    utc_time = datetime.datetime.now()
+    est_time = utc_time + datetime.timedelta(hours=-5)
+    now_dtd = est_time.date()
     rows = get_csv_rows(os.path.join(CNDIR, my_sked_file))
     FOUND = None
     x = []
