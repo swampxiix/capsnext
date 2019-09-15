@@ -1,82 +1,88 @@
-10/03/2018,Boston,7:30
-10/04/2018,at Pittsburgh,7:00
-10/10/2018,Vegas,7:00
-10/11/2018,at New Jersey,7:00
-10/13/2018,Toronto,7:00
-10/17/2018,NY Rangers,7:00
-10/19/2018,Florida,7:00
-10/22/2018,at Vancouver,10:00
-10/25/2018,at Edmonton,9:00
-10/27/2018,at Calgary,4:00
-11/01/2018,at Montreal,7:30
-11/03/2018,Dallas,7:00
-11/05/2018,Edmonton,7:00
-11/07/2018,Pittsburgh,7:30
-11/09/2018,Columbus,7:00
-11/11/2018,Arizona,5:00
-11/13/2018,at Minnesota,8:00
-11/14/2018,at Winnipeg,8:00
-11/16/2018,at Colorado,9:00
-11/19/2018,at Montreal,7:30
-11/21/2018,Chicago,7:00
-11/23/2018,Detroit,4:00
-11/24/2018,at NY Rangers,2:00
-11/26/2018,at NY Islanders,7:00
-11/30/2018,New Jersey,7:00
-12/02/2018,Anaheim,3:00
-12/04/2018,at Vegas,10:00
-12/06/2018,at Arizona,9:00
-12/08/2018,at Columbus,7:00
-12/11/2018,Detroit,7:30
-12/14/2018,at Carolina,7:30
-12/15/2018,Buffalo,7:00
-12/19/2018,Pittsburgh,8:00
-12/21/2018,Buffalo,7:00
-12/22/2018,at Ottawa,7:00
-12/27/2018,Carolina,7:00
-12/19/2018,at Ottawa,7:00
-12/31/2018,Nashville,12:30
-01/03/2019,at St. Louis,8:00
-01/04/2019,at Dallas,8:00
-01/06/2019,at Detroit,5:00
-01/08/2019,Philadelphia,7:30
-01/10/2019,at Boston,7:00
-01/12/2019,Columbus,7:00
-01/14/2019,St. Louis,7:00
-01/15/2019,at Nashville,8:00
-01/18/2019,NY Islanders,7:30
-01/20/2019,at Chicago,12:30
-01/22/2019,San Jose,7:00
-01/23/2019,at Toronto,7:30
-02/01/2019,Calgary,7:00
-02/03/2019,Boston,12:30
-02/05/2019,Vancouver,7:00
-02/07/2019,Colorado,7:00
-02/09/2019,Florida,7:00
-02/11/2019,Los Angeles,7:00
-02/12/2019,at Columbus,7:00
-02/14/2019,at San Jose,10:30
-02/17/2019,at Anaheim,9:00
-02/18/2019,at Los Angeles,10:30
-02/21/2019,at Toronto,7:00
-02/23/2019,at Buffalo,1:00
-02/24/2019,NY Rangers,12:30
-02/26/2019,Ottawa,7:00
-03/01/2019,at NY Islanders,7:00
-03/03/2019,at NY Rangers,12:30pm
-03/06/2019,at Philadelphia,7:30
-03/08/2019,New Jersey,7:00
-03/10/2019,Winnipeg,7:00
-03/12/2019,at Pittsburgh,7:00
-03/14/2019,at Philadelphia,7:00
-03/16/2019,at Tampa Bay,7:00
-03/19/2019,at New Jersey,7:30
-03/20/2019,Tampa Bay,7:30
-03/22/2019,Minnesota,7:00
-03/24/2019,Philadelphia,12:30
-03/26/2019,Carolina,7;00
-03/28/2019,at Carolina,7:00
-03/30/2019,at Tampa Bay,7:00
-04/01/2019,at Florida,7:00
-04/04/2019,Montreal,7:00
-04/06/2019,NY Islanders,7:00
+09/16/2019,Chicago,7:00
+09/18/2019,St. Louis,7:00
+09/21/2019,Carolina,7:00
+09/25/2019,at Chicago,8:00
+09/27/2019,at St. Louis,8:00
+09/29/2019,at Carolina,1:30
+10/02/2019,at St. Louis,8:00
+10/04/2019,at NY Islanders,7:00
+10/05/2019,Carolina,7:00
+10/08/2019,Dallas,7:00
+10/10/2019,at Nashville,8:00
+10/12/2019,at Dallas,8:00
+10/14/2019,Colorado,5:00
+10/16/2019,Toronto,7:00
+10/18/2019,NY Rangers,7:00
+10/20/2019,at Chicago,7:00
+10/22/2019,at Calgary,9:00
+10/24/2019,at Edmonton,9:00
+10/25/2019,at Vancouver,10:00
+10/29/2019,at Toronto,7:00
+11/01/2019,Buffalo,7:00
+11/03/2019,Calgary,7:00
+11/07/2019,at Florida,7:00
+11/09/2019,Vegas,7:00
+11/11/2019,Arizona,7:00
+11/13/2019,at Philadelphia,7:30
+11/15/2019,Montreal,7:00
+11/16/2019,at Boston,7:00
+11/18/2019,Anaheim,7:00
+11/20/2019,at NY Rangers,8:00
+11/23/2019,Vancouver,12:30
+11/27/2019,Florida,7:00
+11/29/2019,Tampa Bay,5:00
+11/30/2019,at Detroit,7:00
+12/03/2019,at San Jose,10:30
+12/04/2019,at Los Angeles,10:00
+12/06/2019,at Anaheim,10:00
+12/09/2019,Columbus,7:00
+12/11/2019,Boston,7:00
+12/14/2019,at Tampa Bay,7:00
+12/16/2019,at Columbus,7:00
+12/20/2019,at New Jersey,7:00
+12/21/2019,Tampa Bay,7:00
+12/23/2019,at Boston,7:00
+12/27/2019,Columbus,7:00
+12/28/2019,at Carolina,7:00
+12/31/2019,NY Islanders,1:00
+01/03/2020,at Carolina,7:30
+01/05/2020,San Jose,12:30
+01/07/2020,Ottawa,7:00
+01/08/2020,at Philadelphia,7:30
+01/11/2020,New Jersey,7:00
+01/13/2020,Carolina,7:00
+01/16/2020,New Jersey,7:00
+01/18/2020,at NY Islanders,1:00
+01/27/2020,at Montreal,7:00
+01/29/2020,Nashville,7:30
+01/31/2020,at Ottawa,7:30
+02/02/2020,Pittsburgh,12:30
+02/04/2020,Los Angeles,7:00
+02/08/2020,Philadelphia,7:00
+02/10/2020,NY Islanders,7:00
+02/13/2020,at Colorado,9:00
+02/15/2020,at Arizona,10:00
+02/17/2020,at Vegas,6:00
+02/20/2020,Montreal,7:00
+02/22/2020,at New Jersey,1:00
+02/23/2020,Pittsburgh,12:00
+02/25/2020,Winnipeg,7:00
+02/27/2020,at Winnipeg,8:00
+03/01/2020,at Minnesota,8:00
+03/04/2020,Philadelphia,7:00
+03/05/2020,at NY Rangers,7:00
+03/07/2020,at Pittsburgh,1:00
+03/09/2020,at Buffalo,7:00
+03/12/2020,Detroit,7:00
+03/14/2020,Chicago,7:00
+03/16/2020,Edmonton,7:00
+03/19/2020,at Columbus,7:00
+03/20/2020,Ottawa,7:00
+03/22/2020,at Pittsburgh,12:00
+03/24/2020,St. Louis,7:00
+03/26/2020,NY Rangers,7:00
+03/28/2020,at Detroit,7:00
+03/30/2020,at Buffalo,7:00
+03/31/2020,Toronto,7:00
+04/02/2020,Minnesota,7:00
+04/04/2020,at Florida,7:00
