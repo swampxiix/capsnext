@@ -37,3 +37,30 @@ def get_next_game (my_sked_file):
             break
     return FOUND
 
+import json, urllib2
+
+CAPS_ID = '15'
+def get_prev_results():
+    all_teams_url = 'https://statsapi.web.nhl.com/api/v1/teams'
+    all_teams_dict = json.loads(urllib2.urlopen(all_teams_url).read())
+    prev_game_url = 'https://statsapi.web.nhl.com/api/v1/teams/%s?expand=team.schedule.previous' % (CAPS_ID)
+    prev_game_dict = json.loads(urllib2.urlopen(prev_game_url).read())
+    d = prev_game_dict
+    home_id = d['teams'][0]['previousGameSchedule']['dates'][0]['games'][0]['teams']['home']['team']['id']
+    away_id = d['teams'][0]['previousGameSchedule']['dates'][0]['games'][0]['teams']['away']['team']['id']
+    home_abbr, away_abbr = '', ''
+    for team in all_teams_dict['teams']:
+        if team['id'] == home_id:
+            home_abbr = team['abbreviation']
+        if team['id'] == away_id:
+            away_abbr = team['abbreviation']
+    home_scr = d['teams'][0]['previousGameSchedule']['dates'][0]['games'][0]['teams']['home']['score']
+    away_scr = d['teams'][0]['previousGameSchedule']['dates'][0]['games'][0]['teams']['away']['score']
+    FINAL = {
+        'home': {'abbr': home_abbr, 'score': home_scr},
+        'away': {'abbr': away_abbr, 'score': away_scr},
+        }
+    return FINAL
+
+
+

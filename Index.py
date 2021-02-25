@@ -1,5 +1,5 @@
 from WebKit.Page import Page
-from z_cn_tools import get_next_game, CNDIR
+from z_cn_tools import get_next_game, CNDIR, get_prev_results
 
 import os.path
 my_sked_file = os.path.join(CNDIR, 'schedule.csv')
@@ -31,5 +31,10 @@ class Index (Page):
             wr('<img src="logos_hockey/%s.gif"><br>' % (imgname))
             wr('%s</h2>' % (opponent))
             wr('</div>')
+
+#            d = get_prev_results()
+#            wr('%s %s<br>' % (d['home']['abbr'], d['home']['score']))
+#            wr('%s %s<br>' % (d['away']['abbr'], d['away']['score']))
+
         except TypeError:
             wr('No upcoming games.')
